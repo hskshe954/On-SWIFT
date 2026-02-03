@@ -1,0 +1,35 @@
+on-swift/
+│
+├── index.html           (Homepage / About)
+├── login.html           (Login page)
+├── dashboard.html       (Role-based dashboard)
+├── booking.html         (Booking system page)
+├── notifications.html   (Notifications page)
+├── admin.html           (Admin user management)
+├── how-it-works.html    (How It Works / FAQ)
+│
+├── css/
+│   └── style.css        (All styling)
+│
+└── js/
+    ├── auth.js          (Login logic + users)
+    ├── booking.js       (Booking system)
+    ├── notify.js        (Notifications)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ON-SWIFT</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to ON-SWIFT</h1>
+    <p>ON-SWIFT is a student skill booking platform connecting students and clients for services and learning opportunities.</p>
+    
+    <a href="login.html">Login</a> | 
+    <a href="how-it-works.html">How It Works</a>
+  </div>
+</body>
+</html>
